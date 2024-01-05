@@ -1,0 +1,254 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.home{
+    width: 100%;
+    height: 930px;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('https://assets.nflxext.com/ffe/siteui/vlv3/c31c3123-3df7-4359-8b8c-475bd2d9925d/15feb590-3d73-45e9-9e4a-2eb334c83921/IN-en-20231225-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+    box-shadow: inset 30px 50px 200px 30px rgba(0,0,0,0.9);
+    background-size: 111%;
+    background-position: 0px -200px;
+}
+.img1>img{
+    width: 200px;
+    height: 120px;
+    filter: brightness(100%);
+    margin-left: 30px;
+    margin-top: -10px;
+}
+.boxx{
+    width: 440px;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    margin: auto;
+    padding-top: 65px;
+}
+#boxin{
+    width: 310px;
+    height: 630px;
+    margin: auto;
+    background-color:
+    
+}
+#boxin>h1{
+    text-align: start;
+    margin-bottom: 28px;
+    
+}
+#eml{
+    padding: 18px;
+    width: 270px;
+    height: 18px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+#pswrd{
+    padding: 18px;
+    width: 270px;
+    height: 18px;
+    border-radius: 10px;
+    border: 1px solid white;
+    margin-top: 15px;
+
+
+}
+#eml::placeholder{
+    color: black;
+}
+#pswrd::placeholder{
+    color: black;
+}
+#sibtn{
+    padding: 18px;
+    width: 310px;
+    height: 53px;
+    border: 1px solid red;
+    border-radius: 10px;
+    color: white;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 55px;
+    margin-bottom: 70px;
+}
+.row{
+        display: flex;
+        font-size: 18px;
+}
+.footer{
+    background-color: black;
+    padding: 50px 15% 10px;
+    border-top: 6px solid #333;
+    color: #777;
+    margin-top: 100px;
+}
+.footer>h2{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+
+}
+.footer .col{
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+.footer .col a{
+    display: block;
+    text-decoration: none;
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 10px;
+    
+}
+.footer .row{
+    align-items: flex-start;
+    padding: 10px 0;
+}
+.copyright_text{
+    color: #777;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+#search_bar{
+    padding: 8px 20px;
+    background: transparent;
+    color: white;
+    margin-right:20px;
+    border-radius: 5px;
+    border: 1px solid white;
+    font-size:90%;
+
+
+}
+#sin>p{
+    font-size: 14px;
+    color: #777;
+}
+span{
+    font-weight: 600;
+    font-size: 17px;
+    color: white;
+
+}
+@media screen and (min-width : 280px)  and (max-width : 1068px){
+
+    .img1>img{
+        width: 100px;
+        height: 60px;
+        filter: brightness(100%);
+        margin-left: 60px;
+        margin-top: -8px;
+    }
+    .boxx{
+        width: 240px;
+        height: 400px;
+        background-color: rgba(0, 0, 0, 0.7);
+        border-radius: 10px;
+        text-align: center;
+        color: white;
+        margin: auto;
+        padding-top: 65px;
+    }
+    #boxin{
+        width: 200px;
+        height: 430px;
+        margin: auto;
+        
+    
+    }
+
+    #boxin>h1{
+        text-align: start;
+        margin-bottom: 28px;
+        
+    }
+    #eml{
+        padding: 18px;
+        width: 160px;
+        height: 18px;
+        border-radius: 10px;
+        border: 1px solid white;
+        /* display: flex;
+        justify-content: center; */
+    }
+    #pswrd{
+        padding: 18px;
+        width: 160px;
+        height: 18px;
+        border-radius: 10px;
+        border: 1px solid white;
+        margin-top: 15px;
+        padding: auto;
+    }
+    #eml::placeholder{
+        color: black;
+    }
+    #pswrd::placeholder{
+        color: black;
+    }
+    #sibtn{
+        padding: 18px;
+        width: 200px;
+        height: 53px;
+        border: 1px solid red;
+        border-radius: 10px;
+        color: white;
+        background-color: red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 55px;
+        margin-bottom: 70px;
+    }
+    #boxin>h1{
+        text-align: start;
+        margin-bottom: 12px;
+        font-size: large;
+        
+    }
+    #sin>p{
+        font-size: 10px;
+        color: #777;
+    }
+    span{
+        font-weight: 600;
+        font-size: 10px;
+        color: white;
+    
+    }
+    .footer>h2{
+        font-size: 12px;
+        font-weight: 400;
+        margin-bottom: 30px;
+    
+    }
+    .footer .col a{
+        display: block;
+        text-decoration: none;
+        color: #777;
+        font-size: 10px;
+        margin-bottom: 10px;
+        
+    }
+    #search_bar{
+        padding: 4px 10px;
+        background: transparent;
+        color: white;
+        margin-right:20px;
+        border-radius: 5px;
+        border: 1px solid white;
+        font-size:50%;
+    
+    
+    }
+
+
+}
